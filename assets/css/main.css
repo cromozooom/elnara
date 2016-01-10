@@ -1,0 +1,21 @@
+.content, .animation {
+  width: 50%;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.eventinfo {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+.animation-position {
+  height: 20vh;
+}
+
+/*# sourceMappingURL=main.css.map */
