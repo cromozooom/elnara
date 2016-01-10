@@ -22,47 +22,52 @@ html.no-js
 			| to improve your experience.
 		<![endif]-->
 		//- Add your site or application content here
-		.coontainer-fluid
-			.container
-				.row
-					.col-xs-12.visible-sm-block.visible-xs-block
-						h1
-							img.img-responsive(src="assets/img/logo_elnara_kirasawa.png" alt="Elnara Kirasawa")
-					.col-xs-12.col-md-4.animation
-						section.animattion-position
-							ul.bxslider
-								li: img.img-responsive(src="assets/img/model01.jpg" alt="model 01")
-								li: img.img-responsive(src="assets/img/model02.jpg" alt="model 02")
-								li: img.img-responsive(src="assets/img/model03.jpg" alt="model 03")
-								li: img.img-responsive(src="assets/img/model04.jpg" alt="model 04")
-					.col-xs-12.col-md-8.eventinfo
-						section.info-event
-							h1.hidden-xs.hidden-sm
-								img(src="assets/img/logo_elnara_kirasawa.png" alt="Elnara Kirasawa")
-							p.definition: strong Upcoming event
-							h1.myColletction Cocoon collection
-							small by Elnara Kirasawa at
-							h2.event-title
-								| Milan women fashion show
-							small.event-subtitle Fall / winter 16/17
-							br
-							p Cocktail and evening dresses, dance after the show.
-							hr
+		.container-fluid
+			//.container
+			.row
+				.col-xs-12.visible-sm-block.visible-xs-block
+					h1
+						img.img-responsive(src="assets/img/logo_elnara_kirasawa.png" alt="Elnara Kirasawa")
+				.col-xs-12.col-md-4.animation
+					section.animattion-position
+						ul.bxslider
+							li: img.img-responsive(src="assets/img/model01.jpg" alt="model 01")
+							li: img.img-responsive(src="assets/img/model02.jpg" alt="model 02")
+							li: img.img-responsive(src="assets/img/model03.jpg" alt="model 03")
+							li: img.img-responsive(src="assets/img/model04.jpg" alt="model 04")
+				.col-xs-12.col-md-8.eventinfo
+					.row
+						.col-xs-12
+							section.info-event
+								h1.hidden-xs.hidden-sm
+									img(src="assets/img/logo_elnara_kirasawa.png" alt="Elnara Kirasawa")
+								p.definition: strong Upcoming event
+								h1.myColletction Cocoon</br>collection
+								small by Elnara Kirasawa at
+								hr
+								h2.event-title
+									| Milan women fashion show
+								small.event-subtitle Fall / winter 16/17
+								br
+								p Cocktail and evening dresses, dance after the show.
+								hr
 							.row
 								.col-xs-6
 									h4 Date
-									
 									time(datetime="2008-02-14 20:00") Thursday February 25, 2016, at 7:30 p.m.
 									p
 										| By reservation only: 
 										a(href="") elnarakirasawa@gmail.com
 								.col-xs-6
+									//-.eventmap
 									h4 Place
 									
 									h5
 										| Bobino Club
 										small: address Alzaia Naviglio Grande 116 Milano
 										a.btn.btn-default(href="https://www.google.it/maps/place/Bobino+Club+Milano/@45.4488207,9.1572663,17z/data=!4m6!1m3!3m2!1s0x4786c157aaaaaaab:0x3e21f9feed975d3!2sBobino+Club+Milano!3m1!1s0x4786c157aaaaaaab:0x3e21f9feed975d3?hl=en") see the map
+									//- iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2799.041456907002!2d9.1572663!3d45.4488207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c157aaaaaaab%3A0x3e21f9feed975d3!2sBobino+Club+Milano!5e0!3m2!1sen!2sit!4v1452443118966" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen)
+
 
 
 
